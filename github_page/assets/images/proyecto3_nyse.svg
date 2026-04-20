@@ -1,0 +1,50 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="40" y1="60" x2="1160" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A111F"/>
+      <stop offset="1" stop-color="#3A1D2B"/>
+    </linearGradient>
+    <linearGradient id="bull" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3FF78A"/>
+      <stop offset="1" stop-color="#2BD671"/>
+    </linearGradient>
+    <linearGradient id="bear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A7D"/>
+      <stop offset="1" stop-color="#FF5353"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg3)"/>
+  <rect x="50" y="50" width="1100" height="600" rx="30" fill="#2D1524" stroke="#F286B9" stroke-opacity="0.35"/>
+
+  <text x="95" y="92" fill="#FFE6F2" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Proyecto 3 - NYSE Bull vs Bear</text>
+
+  <rect x="90" y="130" width="1020" height="500" rx="20" fill="#371B2C"/>
+
+  <line x1="140" y1="540" x2="760" y2="540" stroke="#DFA9C8"/>
+  <line x1="140" y1="210" x2="140" y2="540" stroke="#DFA9C8"/>
+
+  <rect x="180" y="300" width="45" height="240" rx="8" fill="url(#bull)"/>
+  <rect x="245" y="350" width="45" height="190" rx="8" fill="url(#bear)"/>
+  <rect x="310" y="280" width="45" height="260" rx="8" fill="url(#bull)"/>
+  <rect x="375" y="365" width="45" height="175" rx="8" fill="url(#bear)"/>
+  <rect x="440" y="260" width="45" height="280" rx="8" fill="url(#bull)"/>
+  <rect x="505" y="330" width="45" height="210" rx="8" fill="url(#bear)"/>
+  <rect x="570" y="240" width="45" height="300" rx="8" fill="url(#bull)"/>
+  <rect x="635" y="320" width="45" height="220" rx="8" fill="url(#bear)"/>
+
+  <text x="145" y="188" fill="#FFE6F2" font-family="Segoe UI, sans-serif" font-size="20" font-weight="600">Hipotesis y patrones del mercado</text>
+
+  <rect x="810" y="190" width="260" height="340" rx="18" fill="#2A1421" stroke="#F286B9" stroke-opacity="0.45"/>
+  <text x="840" y="230" fill="#FFE6F2" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">Bull vs Bear</text>
+
+  <rect x="845" y="280" width="190" height="44" rx="12" fill="url(#bull)"/>
+  <rect x="845" y="350" width="150" height="44" rx="12" fill="url(#bear)"/>
+  <text x="855" y="309" fill="#102013" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Bull 62%</text>
+  <text x="855" y="379" fill="#2A0D0D" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Bear 47%</text>
+
+  <text x="845" y="445" fill="#FFD8EC" font-family="Segoe UI, sans-serif" font-size="16">H13: sesgo de mercado</text>
+  <text x="845" y="468" fill="#FFD8EC" font-family="Segoe UI, sans-serif" font-size="16">domina en dias extremos</text>
+
+  <text x="95" y="612" fill="#F8C9E0" font-family="Segoe UI, sans-serif" font-size="18">Visual simulado inspirado en el notebook de Taller 2</text>
+</svg>

@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portafolio | Data Science MVP</title>
+	<meta name="description" content="Portafolio profesional de Data Science con proyectos de analisis financiero, visualizacion y modelado de riesgo.">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="site-wrap">
+		<header class="site-header">
+			<div class="container header-inner">
+				<a class="brand" href="#inicio" aria-label="Ir al inicio">
+					<span class="brand-mark">DS</span>
+					<span class="brand-text">Data Scientist Portfolio</span>
+				</a>
+
+				<button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+					<span aria-hidden="true">☰</span>
+				</button>
+
+				<nav class="site-nav" aria-label="Navegacion principal">
+					<ul>
+						<li><a href="#inicio">Inicio</a></li>
+						<li><a href="#sobre-mi">Sobre mi</a></li>
+						<li><a href="#proyectos">Proyectos</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section id="inicio" class="hero section">
+				<div class="container hero-grid">
+					<article class="hero-panel reveal">
+						<p class="hero-kicker">MVP para GitHub Pages</p>
+						<h1 class="hero-title">Portafolio profesional de <span>Data Science</span></h1>
+						<p class="hero-copy">
+							Este sitio resume mis proyectos de analisis de datos, machine learning y visualizacion. El enfoque esta en traducir datasets reales en decisiones de negocio claras, medibles y accionables.
+						</p>
+						<div class="hero-actions">
+							<a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+							<a class="btn btn-ghost" href="#contacto">Contactarme</a>
+						</div>
+					</article>
+
+					<aside class="hero-side reveal">
+						<article class="hero-mini">
+							<h3>Perfil de trabajo</h3>
+							<p>Analisis exploratorio, modelado supervisado/no supervisado y storytelling tecnico orientado a impacto.</p>
+						</article>
+						<div class="hero-metrics">
+							<div class="metric">
+								<strong>4</strong>
+								<span>Proyectos destacados</span>
+							</div>
+							<div class="metric">
+								<strong>+620k</strong>
+								<span>Registros en analisis NYSE</span>
+							</div>
+							<div class="metric">
+								<strong>Tree + SVM</strong>
+								<span>Modelos de clasificacion</span>
+							</div>
+							<div class="metric">
+								<strong>K-means</strong>
+								<span>Segmentacion de riesgo</span>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</section>
+
+			<section id="sobre-mi" class="section">
+				<div class="container">
+					<h2 class="section-title reveal">Sobre mi</h2>
+					<p class="section-lead reveal">
+						Soy profesional en formacion continua en analitica aplicada, con interes en finanzas, riesgo y productos digitales. Me enfoco en construir analisis reproducibles y comunicar resultados de forma clara para equipos tecnicos y de negocio.
+					</p>
+
+					<div class="about-grid">
+						<article class="about-card reveal">
+							<p>
+								Mi metodo combina limpieza de datos, diseno de hipotesis, evaluacion rigurosa de modelos y visualizacion ejecutiva. Trabajo con Python, R y herramientas de BI para convertir informacion compleja en planes de accion concretos.
+							</p>
+						</article>
+						<aside class="contact-card reveal">
+							<ul class="contact-list">
+								<li class="contact-item">
+									<strong>Email</strong>
+									<a href="mailto:tu_correo@dominio.com">tu_correo@dominio.com</a>
+								</li>
+								<li class="contact-item">
+									<strong>Ubicacion</strong>
+									<span>Colombia</span>
+								</li>
+								<li class="contact-item">
+									<strong>Enfoque</strong>
+									<span>Data Science, Machine Learning, Visual Analytics</span>
+								</li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+			</section>
+
+			<section id="proyectos" class="section">
+				<div class="container">
+					<h2 class="section-title reveal">Proyectos</h2>
+					<p class="section-lead reveal">
+						Cada proyecto incluye contexto, enfoque analitico y conclusiones principales. La seleccion mezcla casos financieros, producto digital y deteccion de fraude.
+					</p>
+
+					<div class="projects-grid">
+						<article class="project-card reveal">
+							<figure class="project-media">
+								<img src="assets/images/proyecto1_msft_volume.png" alt="Grafico de volumen diario de MSFT.">
+								<span class="project-label">Proyecto 1</span>
+							</figure>
+							<div class="project-body">
+								<h3 class="project-title">Algoritmos de negociacion ML</h3>
+								<p class="project-sub">Comparacion de comportamiento bursatil entre GOOG y MSFT (2019-2021) con extraccion automatica desde yfinance.</p>
+
+								<section class="project-block">
+									<h4>Contexto</h4>
+									<p>Se construyo una rutina para descargar OHLCV, dividendos y estadisticas descriptivas de dos tickers tecnologicos.</p>
+								</section>
+								<section class="project-block">
+									<h4>Analisis</h4>
+									<p>El script calcula volumen promedio, compara tickers y genera visual de volumen diario para MSFT, incluyendo contraste Q1 2020 vs 2019.</p>
+								</section>
+								<section class="project-block">
+									<h4>Conclusiones</h4>
+									<p>Se consolidaron salidas CSV/PNG listas para exploracion posterior y soporte de decisiones cuantitativas con series historicas consistentes.</p>
+								</section>
+
+								<div class="project-links">
+									<a class="tag-link" href="../algoritmos_negociacion_ML/analysis_yfinance.py">Ver script</a>
+									<a class="tag-link" href="../algoritmos_negociacion_ML/">Ver carpeta</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="project-card reveal">
+							<figure class="project-media">
+								<img src="assets/images/proyecto2_streamlit.svg" alt="Visual de dashboard Streamlit para vehiculos usados.">
+								<span class="project-label">Proyecto 2</span>
+							</figure>
+							<div class="project-body">
+								<h3 class="project-title">App Streamlit de vehiculos usados</h3>
+								<p class="project-sub">Aplicacion interactiva para explorar anuncios de venta de vehiculos en EE. UU.</p>
+
+								<section class="project-block">
+									<h4>Contexto</h4>
+									<p>Se desarrollo una app ligera para usuarios no tecnicos que necesitan revisar rapidamente distribuciones y relaciones clave del dataset.</p>
+								</section>
+								<section class="project-block">
+									<h4>Analisis</h4>
+									<p>Incluye botones para crear histograma de odometro y dispersion precio vs odometro con Plotly, permitiendo exploracion guiada.</p>
+								</section>
+								<section class="project-block">
+									<h4>Conclusiones</h4>
+									<p>El MVP facilita EDA visual inmediato y sirve como base para incorporar filtros, segmentacion por marca y recomendaciones de precio.</p>
+								</section>
+
+								<div class="project-links">
+									<a class="tag-link" href="../Proyecto%206/Proyecto-TripleTen---Sprint-7/app.py">Ver app.py</a>
+									<a class="tag-link" href="../Proyecto%206/Proyecto-TripleTen---Sprint-7/README.md">Ver README</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="project-card reveal">
+							<figure class="project-media">
+								<img src="assets/images/proyecto3_nyse.svg" alt="Visual de resultados bull y bear en mercado NYSE.">
+								<span class="project-label">Proyecto 3</span>
+							</figure>
+							<div class="project-body">
+								<h3 class="project-title">Taller 2 - Pronostico NYSE</h3>
+								<p class="project-sub">Analisis de acciones S&amp;P 500 para estimar probabilidad de resultados bull/bear y validar hipotesis de mercado.</p>
+
+								<section class="project-block">
+									<h4>Contexto</h4>
+									<p>Dataset masivo de operaciones diarias para responder preguntas de negocio sobre desempeno, riesgo y patrones de retorno.</p>
+								</section>
+								<section class="project-block">
+									<h4>Analisis</h4>
+									<p>Se evaluaron hipotesis por empresa, volatilidad, autocorrelacion y estacionalidad; ademas, se contrasto el efecto de mercado en dias extremos.</p>
+								</section>
+								<section class="project-block">
+									<h4>Conclusiones</h4>
+									<p>Hallazgos relevantes: en jornadas extremas, la proporcion de bull sube a 62% vs 47% en dias normales; se identificaron emisoras y meses con comportamiento diferencial.</p>
+								</section>
+
+								<div class="project-links">
+									<a class="tag-link" href="../Taller%202/Excecution/Taller2_ANII_JACN.ipynb">Ver notebook</a>
+									<a class="tag-link" href="../Taller%202/Data/all_stocks_5yr.csv">Ver dataset</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="project-card reveal">
+							<figure class="project-media">
+								<img src="assets/images/proyecto4_fraude.svg" alt="Visual de modelo de fraude con matriz de confusion y clusters.">
+								<span class="project-label">Proyecto 4</span>
+							</figure>
+							<div class="project-body">
+								<h3 class="project-title">Taller 3 - Fraude bancario digital</h3>
+								<p class="project-sub">Diseno de piloto analitico para deteccion de fraude, con enfoques supervisados y no supervisados.</p>
+
+								<section class="project-block">
+									<h4>Contexto</h4>
+									<p>Caso de riesgo operacional con perdidas millonarias y necesidad de reducir falsos positivos sin afectar experiencia de cliente.</p>
+								</section>
+								<section class="project-block">
+									<h4>Analisis</h4>
+									<p>Se entreno arbol podado y SVM lineal (con y sin balanceo), junto con K-means/PAM y analisis factorial para segmentar patrones transaccionales.</p>
+								</section>
+								<section class="project-block">
+									<h4>Conclusiones</h4>
+									<p>En test, el arbol reporta 1.00 de accuracy/sensibilidad/especificidad y se prioriza por interpretabilidad; se recomienda validar fuga de informacion con nueva muestra.</p>
+								</section>
+
+								<div class="project-links">
+									<a class="tag-link" href="../Taller%203/Execution/Taller_3_ANII_JACN.ipynb">Ver notebook</a>
+									<a class="tag-link" href="../Taller%203/Data/fraude_bancario.csv">Ver dataset</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacto" class="section">
+				<div class="container">
+					<h2 class="section-title reveal">Contacto</h2>
+					<div class="contact-band reveal">
+						<p>
+							Si quieres colaborar en proyectos de analitica, visualizacion o machine learning aplicado, escribeme por email o conecta conmigo en LinkedIn y GitHub. Este MVP esta listo para publicarse en GitHub Pages.
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container footer-inner">
+				<p class="footer-copy">&copy; <span data-year></span> Portafolio Data Science. Todos los derechos reservados.</p>
+				<div class="footer-links">
+					<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+					<a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
