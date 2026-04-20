@@ -486,25 +486,6 @@ body::after {
   color: #d9f6ff;
 }
 
-.mvp-panel {
-  display: grid;
-  gap: 0.9rem;
-}
-
-.mvp-list {
-  margin: 0;
-  padding-left: 1.25rem;
-  color: #dff3ff;
-  display: grid;
-  gap: 0.38rem;
-  line-height: 1.5;
-}
-
-.mvp-note {
-  color: #bfe6fa;
-  font-size: 0.94rem;
-}
-
 .footer {
   border-top: 1px solid rgba(151, 221, 255, 0.2);
   margin-top: 2.5rem;
